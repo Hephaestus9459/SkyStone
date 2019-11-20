@@ -101,6 +101,6 @@ public class Auto extends LinearOpMode {
         FR.setPower(0);
         BL.setPower(0);
         BR.setPower(0);
-
+        // It works.
     }
 }
