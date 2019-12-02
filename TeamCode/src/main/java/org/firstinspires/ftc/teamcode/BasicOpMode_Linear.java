@@ -112,11 +112,11 @@ public class BasicOpMode_Linear extends LinearOpMode {
             leftPower    = Range.clip(drive + turn, -1.0, 1.0) ;
             rightPower   = Range.clip(drive - turn, -1.0, 1.0) ;
             if(gamepad1.right_bumper){
-                servoPower = 1;
+                servoPower = 2;
             }
 
             else if(gamepad1.left_bumper) {
-                servoPower = -1;
+                servoPower = -2;
             }
 
             else {

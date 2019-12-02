@@ -92,11 +92,11 @@ public class Auto extends LinearOpMode {
         runtime.reset();
 
         // run until the end of the match (driver presses STOP)
-        FL.setPower(.5);
-        FR.setPower(.5);
-        BL.setPower(.5);
-        BR.setPower(.5);
-        sleep(2000);
+        FL.setPower(-.50);
+        FR.setPower(-.50);
+        BL.setPower(-.50);
+        BR.setPower(-.50);
+        sleep(1000);
         FL.setPower(0);
         FR.setPower(0);
         BL.setPower(0);
